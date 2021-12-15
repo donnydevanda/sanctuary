@@ -19,7 +19,11 @@ export default function Info() {
           </p>
         </div>
         <div className="basis-1/2 -mt-40">
-          <img src="./img-info.jpg" alt="" className="w-3/4 mx-auto" />
+          <img
+            src="./img-info.jpg"
+            alt=""
+            className="w-4/5 mx-auto shadow-2xl drop-shadow-xl"
+          />
         </div>
       </div>
     </>

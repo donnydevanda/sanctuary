@@ -4,10 +4,10 @@ export default function Hero() {
   return (
     <div className="flex items-center mx-auto mt-16 h-full">
       <div className="basis-1/2 ml-24">
-        <img src="./img-hero.jpg" alt="" className="mx-auto" />
+        <img src="./img-hero.jpg" alt="" className="mx-auto drop-shadow-2xl" />
       </div>
       <div className="basis-1/2">
-        <div className="bg-transparent border-l-4 border-t-4 border-b-4 border-gold p-16 -mt-56 -ml-12">
+        <div className="bg-transparent border-l-4 border-t-4 border-b-4 border-gold p-16 shadow-lg -mt-56 -ml-12">
           <p className="text-lg text-green-800">Jakarta, Indonesia</p>
           <h1 className="text-6xl text-green-800 font-serif font-bold mt-4">
             Sit, Drink, Relax.
@@ -18,7 +18,7 @@ export default function Hero() {
           </p>
           <ul className="flex items-center mt-8 space-x-6">
             <li>
-              <a href="/" className="bg-green-900 text-white px-10 py-3">
+              <a href="/" className="bg-green-900 shadow text-white px-10 py-3">
                 Order
               </a>
             </li>
