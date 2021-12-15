@@ -1,4 +1,5 @@
 import "./App.css";
+import Facility from "./components/Facility";
 import Featured from "./components/Featured";
 import Hero from "./components/Hero";
 import Info from "./components/Info";
@@ -13,6 +14,7 @@ function App() {
       <Info />
       <Featured />
       <Review />
+      <Facility />
     </>
   );
 }
