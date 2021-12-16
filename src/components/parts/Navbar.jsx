@@ -3,9 +3,9 @@ import React from "react";
 export default function Navbar() {
   return (
     <nav className="bg-white shadow">
-      <div className="container flex justify-between items-center mx-auto px-40">
-        <img src="./logo.svg" alt="" className="h-30 py-6" />
-        <ul className="flex space-x-12">
+      <div className="container flex justify-between items-center md:px-40">
+        <img src="./logo.svg" alt="" className="mx-auto py-6 md:h-30" />
+        <ul className="hidden md:flex md:space-x-12">
           <li>
             <a
               href="/"

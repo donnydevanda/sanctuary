@@ -2,12 +2,12 @@ import React from "react";
 
 export default function Hero() {
   return (
-    <div className="flex items-center mx-auto mt-16 h-full">
-      <div className="basis-1/2 ml-24">
+    <div className="flex flex-col items-center mx-auto md:flex-row md:mt-16">
+      <div className="basis-1/2 md:ml-24">
         <img src="./img-hero.jpg" alt="" className="mx-auto drop-shadow-2xl" />
       </div>
       <div className="basis-1/2">
-        <div className="bg-transparent border-l-4 border-t-4 border-b-4 border-gold p-16 shadow-lg -mt-56 -ml-12">
+        <div className="bg-transparent shadow-lg border-l-4 border-y-4 border-gold p-16 md:-mt-56 -ml-12">
           <div className="flex items-center">
             <img src="./ic-location.svg" alt="" />
             <p className="text-lg text-green-800 ml-3 -mt-1">
