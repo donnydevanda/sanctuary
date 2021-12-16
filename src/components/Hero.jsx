@@ -8,7 +8,12 @@ export default function Hero() {
       </div>
       <div className="basis-1/2">
         <div className="bg-transparent border-l-4 border-t-4 border-b-4 border-gold p-16 shadow-lg -mt-56 -ml-12">
-          <p className="text-lg text-green-800">Jakarta, Indonesia</p>
+          <div className="flex items-center">
+            <img src="./ic-location.svg" alt="" />
+            <p className="text-lg text-green-800 ml-3 -mt-1">
+              Jakarta, Indonesia
+            </p>
+          </div>
           <h1 className="text-6xl text-green-800 font-serif font-bold mt-4">
             Sit, Drink, Relax.
           </h1>
