@@ -14,7 +14,7 @@ export default function Info() {
             We collect the best coffee beans from 13 countries, then we do some
             magic for your cup.
           </p>
-          <p className="text-gold underline underline-offset-4 w-4/5 mt-6 mx-auto md:w-1/2">
+          <p className="text-gold hover:text-yellow-500 underline underline-offset-4 w-4/5 mt-6 mx-auto md:w-1/2">
             <a href="/">Explore More</a>
           </p>
         </div>

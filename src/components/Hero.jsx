@@ -23,14 +23,17 @@ export default function Hero() {
           </p>
           <ul className="flex items-center mt-8 space-x-6">
             <li>
-              <a href="/" className="bg-green-900 shadow text-white px-10 py-3">
+              <a
+                href="/"
+                className="bg-green-900 hover:bg-green-800 shadow text-white px-10 py-3"
+              >
                 Order
               </a>
             </li>
             <li>
               <a
                 href="/"
-                className="text-green-800 underline underline-offset-4"
+                className="text-green-900 hover:text-gold underline underline-offset-4"
               >
                 Reservation
               </a>

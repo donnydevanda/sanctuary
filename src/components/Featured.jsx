@@ -19,16 +19,16 @@ export default function Featured() {
       </div>
       <div className="flex flex-col mt-4 md:flex-row md:mt-8">
         <div className="basis-1/4 mt-4 md:mt-0">
-          <Image url="./img-drink-1.jpg" name="Kopi" />
+          <Image url="./img-drink-1.jpg" name="Kopi A" />
         </div>
         <div className="basis-1/4 mt-4 md:mt-0">
-          <Image url="./img-drink-2.jpg" name="Kopi" />
+          <Image url="./img-drink-2.jpg" name="Kopi B" />
         </div>
         <div className="basis-1/4 mt-4 md:mt-0">
-          <Image url="./img-drink-3.jpg" name="Kopi" />
+          <Image url="./img-drink-3.jpg" name="Kopi C" />
         </div>
         <div className="basis-1/4 mt-4 md:mt-0">
-          <Image url="./img-drink-4.jpg" name="Kopi" />
+          <Image url="./img-drink-4.jpg" name="Kopi D" />
         </div>
       </div>
       <div className="flex justify-end -mt-64">

@@ -2,11 +2,15 @@ import React from "react";
 
 export default function Facility() {
   return (
-    <div className="mt-24 mb-48  relative">
-      <div className="container flex mx-auto items-center justify-center absolute inset-0">
-        <div className="basis-1/2 justify-center">
-          <img src="./square-facility.svg" alt="" className="ml-40" />
-          <div className="w-1/2 mx-auto absolute left-0 top-0 ml-40 px-8 mt-32">
+    <div className="my-24 relative">
+      <div className="container flex flex-col mx-auto items-center justify-center md:absolute md:inset-0 md:flex-row">
+        <div className="basis-1/2 justify-center order-2 md:order-1">
+          <img
+            src="./square-facility.svg"
+            alt=""
+            className="invisible md:visible md:ml-40"
+          />
+          <div className="w-4/5 mx-auto -mt-28 md:w-1/2 md:absolute md:left-0 md:top-0 md:ml-40 md:px-8 md:mt-32">
             <h2 className="text-5xl text-white font-bold font-serif">
               Coffee Party?
             </h2>
@@ -30,21 +34,21 @@ export default function Facility() {
                 <p className="text-white text-lg font-light">Open Spaces</p>
               </li>
             </ul>
-            <p className="text-gold underline underline-offset-4 mt-4">
+            <p className="text-gold hover:text-yellow-500 underline underline-offset-4 md:mt-4">
               <a href="/">Reservation</a>
             </p>
           </div>
         </div>
-        <div className="basis-1/2 -mt-64">
+        <div className="basis-1/2 order-1 md:order-2 -mt-14 md:-mt-80">
           <img
             src="./img-facility.jpg"
             alt=""
-            className="mx-auto drop-shadow-2xl"
+            className="mx-auto drop-shadow-2xl w-3/4 md:w-2/3"
           />
         </div>
       </div>
-      <div className="bg-green-dark h-80"></div>
-      <div className="bg-green-dark h-48"></div>
+      <div className="bg-green-dark h-64 -mt-96 md:mt-40 md:h-80" />
+      <div className="bg-green-dark h-48" />
     </div>
   );
 }

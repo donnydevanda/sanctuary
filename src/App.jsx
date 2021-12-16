@@ -1,4 +1,3 @@
-import "./App.css";
 import Navbar from "./components/parts/Navbar";
 import Footer from "./components/parts/Footer";
 import Facility from "./components/Facility";
@@ -15,8 +14,8 @@ function App() {
       <Info />
       <Featured />
       <Review />
-      {/* <Facility />
-      <Footer /> */}
+      <Facility />
+      <Footer />
     </>
   );
 }
