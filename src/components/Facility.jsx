@@ -2,15 +2,15 @@ import React from "react";
 
 export default function Facility() {
   return (
-    <div className="my-24 relative">
+    <div className="my-20 relative md:-mt-20">
       <div className="container flex flex-col mx-auto items-center justify-center md:absolute md:inset-0 md:flex-row">
         <div className="basis-1/2 justify-center order-2 md:order-1">
           <img
             src="./square-facility.svg"
             alt=""
-            className="invisible md:visible md:ml-40"
+            className="invisible lg:visible lg:ml-40"
           />
-          <div className="w-4/5 mx-auto -mt-28 md:w-1/2 md:absolute md:left-0 md:top-0 md:ml-40 md:px-8 md:mt-32">
+          <div className="w-4/5 mx-auto -mt-28 lg:w-1/2 lg:absolute lg:left-0 lg:top-0 lg:ml-40 md:-mt-48 lg:px-8 lg:mt-32">
             <h2 className="text-5xl text-white font-bold font-serif">
               Coffee Party?
             </h2>
@@ -39,7 +39,7 @@ export default function Facility() {
             </p>
           </div>
         </div>
-        <div className="basis-1/2 order-1 md:order-2 -mt-14 md:-mt-80">
+        <div className="basis-1/2 order-1 md:order-2 -mt-14 md:-mt-0 lg:-mt-80">
           <img
             src="./img-facility.jpg"
             alt=""
