@@ -17,17 +17,17 @@ export default function Featured(props) {
   };
 
   return (
-    <div className="container mx-auto mt-12 lg:-mt-8">
-      <div className="w-4/5 mx-auto lg:w-full">
+    <div className="container mx-auto mt-12 2xl:-mt-8">
+      <div className="w-4/5 mx-auto 2xl:w-full">
         <img
           src="./square-featured.svg"
           alt=""
-          className="invisible lg:visible lg:w-1/2"
+          className="invisible 2xl:visible 2xl:w-1/2"
         />
-        <h1 className="text-5xl text-green-800 font-bold font-serif -mt-24 md:-mt-80 lg:-mt-96 lg:px-12">
+        <h1 className="text-5xl text-green-800 font-bold font-serif -mt-24 md:-mt-80 2xl:-mt-96 2xl:px-12">
           Featured Drinks
         </h1>
-        <p className="text-green-800 my-4 lg:px-12 lg:mt-7">
+        <p className="text-green-800 my-4 2xl:px-12 2xl:mt-7">
           They always ask us about this.
         </p>
       </div>

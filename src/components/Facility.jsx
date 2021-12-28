@@ -8,9 +8,9 @@ export default function Facility() {
           <img
             src="./square-facility.svg"
             alt=""
-            className="invisible lg:visible lg:ml-40"
+            className="invisible 2xl:visible 2xl:ml-40"
           />
-          <div className="w-4/5 mx-auto -mt-28 lg:w-1/2 lg:absolute lg:left-0 lg:top-0 lg:ml-40 md:-mt-48 lg:px-8 lg:mt-32">
+          <div className="w-4/5 mx-auto -mt-28 2xl:w-1/2 2xl:absolute 2xl:left-0 2xl:top-0 2xl:ml-40 md:-mt-48 2xl:px-8 2xl:mt-32">
             <h2 className="text-5xl text-white font-bold font-serif">
               Coffee Party?
             </h2>
@@ -39,7 +39,7 @@ export default function Facility() {
             </p>
           </div>
         </div>
-        <div className="basis-1/2 order-1 md:order-2 -mt-14 md:-mt-0 lg:-mt-80">
+        <div className="basis-1/2 order-1 md:order-2 -mt-14 md:-mt-0 2xl:-mt-80">
           <img
             src="./img-facility.jpg"
             alt=""

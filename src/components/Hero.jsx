@@ -2,16 +2,16 @@ import React from "react";
 
 export default function Hero() {
   return (
-    <div className="flex flex-col items-center mx-auto lg:flex-row lg:mt-16">
-      <div className="basis-1/2 w-full lg:w-min lg:ml-24">
+    <div className="flex flex-col items-center mx-auto 2xl:flex-row 2xl:mt-16">
+      <div className="basis-1/2 w-full 2xl:w-min 2xl:ml-24">
         <img
           src="./img-hero.jpg"
           alt=""
-          className="object-fill w-full mx-auto lg:drop-shadow-2xl lg:w-min"
+          className="object-fill w-full mx-auto 2xl:drop-shadow-2xl 2xl:w-min"
         />
       </div>
       <div className="basis-1/2 w-full">
-        <div className="bg-transparent shadow-lg border-y-4 border-gold p-16 lg:border-l-4 lg:-mt-56 -ml-12">
+        <div className="bg-transparent shadow-lg border-y-4 border-gold p-16 2xl:border-l-4 2xl:-mt-56 -ml-12">
           <div className="mx-auto w-full md:w-3/4">
             <div className="flex items-center ">
               <img src="./ic-location.svg" alt="" />

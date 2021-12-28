@@ -3,22 +3,22 @@ import React from "react";
 export default function Review() {
   return (
     <>
-      <div className="container bg-green-dark h-0 mx-auto lg:mt-20 lg:h-96" />
-      <div className="bg-gold container flex flex-col justify-center items-center mx-auto -mt-12 md:flex-row md:mt-80 lg:-mt-96 lg:bg-transparent">
-        <div className="basis-1/2 h-full lg:-mt-24">
+      <div className="container bg-green-dark h-0 mx-auto 2xl:mt-20 2xl:h-96" />
+      <div className="bg-gold container flex flex-col justify-center items-center mx-auto -mt-12 md:flex-row md:mt-80 2xl:-mt-96 2xl:bg-transparent">
+        <div className="basis-1/2 h-full 2xl:-mt-24">
           <img
             src="./img-review.jpg"
             alt=""
-            className="object-cover h-full drop-shadow-2xl mx-auto lg:w-3/4"
+            className="object-cover h-full drop-shadow-2xl mx-auto 2xl:w-3/4"
           />
           <img
             src="./circle-review.svg"
             alt=""
-            className="invisible h-0 -ml-36 w-3/4 lg:visible lg:h-full lg:-mt-96"
+            className="invisible h-0 -ml-36 w-3/4 2xl:visible 2xl:h-full 2xl:-mt-96"
           />
         </div>
-        <div className="basis-1/2 bg-green-dark lg:border-l-8 lg:border-gold lg:-mt-72">
-          <div className="py-10 mx-auto lg:py-0 lg:my-12 lg:ml-8">
+        <div className="basis-1/2 bg-green-dark 2xl:border-l-8 2xl:border-gold 2xl:-mt-72">
+          <div className="py-10 mx-auto 2xl:py-0 2xl:my-12 2xl:ml-8">
             <h2 className="text-5xl px-5 text-white font-serif font-semibold">
               What they think?
             </h2>
