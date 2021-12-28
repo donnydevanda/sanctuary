@@ -1,7 +1,21 @@
-import React from "react";
 import Image from "./parts/Image";
 
-export default function Featured() {
+export default function Featured(props) {
+  const renderItem = () => {
+    let arr = [];
+    for (let product of props.products) {
+      arr.push(
+        <div className="basis-1/4 mx-auto" key={`most-picked-${product.id}`}>
+          <Image
+            url={`https://sanctuary-server.herokuapp.com/${product.image_url}`}
+            name={product.name}
+          />
+        </div>
+      );
+    }
+    return arr;
+  };
+
   return (
     <div className="container mx-auto mt-12 lg:-mt-8">
       <div className="w-4/5 mx-auto lg:w-full">
@@ -18,7 +32,8 @@ export default function Featured() {
         </p>
       </div>
       <div className="flex flex-col space-y-4 md:space-y-0 md:flex-row md:mt-8">
-        <div className="basis-1/4 mx-auto">
+        {renderItem()}
+        {/* <div className="basis-1/4 mx-auto">
           <Image url="./img-drink-1.jpg" name="Kopi A" />
         </div>
         <div className="basis-1/4 mx-auto">
@@ -29,7 +44,7 @@ export default function Featured() {
         </div>
         <div className="basis-1/4 mx-auto">
           <Image url="./img-drink-4.jpg" name="Kopi D" />
-        </div>
+        </div> */}
       </div>
       <div className="flex justify-end -mt-64">
         <img
