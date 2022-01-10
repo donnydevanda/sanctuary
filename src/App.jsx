@@ -18,7 +18,7 @@ function App() {
   async function getProducts() {
     try {
       const response = await axios.get(
-        "https://sanctuary-server-laravel.herokuapp.com/api/products"
+        "https://sanctuary-server.herokuapp.com/products"
       );
       setProducts(response.data);
     } catch (error) {}
